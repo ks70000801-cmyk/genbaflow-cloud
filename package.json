@@ -1,4 +1,3 @@
-
 {
   "name": "genbaflow-cloud",
   "private": true,
@@ -6,15 +5,20 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:netlify": "netlify dev",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@google/genai": "^1.34.0",
+    "@google/generative-ai": "^0.24.1",
+    "openai": "^6.36.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "@google/genai": "^1.34.0"
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
+    "@netlify/functions": "^5.1.2",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@vitejs/plugin-react": "^4.3.4",
