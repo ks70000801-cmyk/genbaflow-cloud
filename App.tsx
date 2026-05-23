@@ -367,6 +367,16 @@ const App: React.FC = () => {
 
       <div className="max-w-lg mx-auto px-4 py-4 space-y-4 pb-36">
 
+        {/* 無料トライアルバナー */}
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLScnAfeECcCLqf_zqgOxc-7ju4bIwiyelxhqdVEVU9ll0JMLPA/viewform?usp="
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block w-full bg-orange-500 hover:bg-orange-600 text-white font-bold text-center py-3 rounded-2xl shadow-sm transition text-base"
+        >
+          無料トライアル申し込みはこちら →
+        </a>
+
         {/* ① 基本情報 */}
         <SectionCard>
           <SectionTitle n={1} icon="📋" label="基本情報" />
