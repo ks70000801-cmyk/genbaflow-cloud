@@ -27,3 +27,12 @@ dist-ssr
 
 # Local Netlify folder
 .netlify
+
+# Claude Code config
+.claude/
+
+# Deno lock
+deno.lock
+
+# Typo directory
+netlity/
